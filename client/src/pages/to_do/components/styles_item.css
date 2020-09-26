@@ -1,0 +1,33 @@
+.item-to-do{
+    background-color: var(--color-primary-dark);
+    border-radius: 5px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: var(--color-button-text);
+    margin-top: 10px;
+
+   
+}
+
+.item-to-do p{
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.item-to-do:hover{
+    background-color: var(--color-primary-darker);
+}
+
+.item-to-do button{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background-color: #fff;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
