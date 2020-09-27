@@ -14,8 +14,10 @@ JavaScript
 
 ## 	🔌  Como usar?:
 
-1° Iniciar o servidor dando "npm start" usando o cmd na pasta "api".
+1° Criar uma arquivo ".env" na pasta "api" com uma variável chamada "DB_CONNECTION" que contem o link para o banco de dados.
 
-2° Iniciar o client dando "npm start" usando o cmd na pasta "client".
+2° Iniciar o servidor dando "npm start" usando o cmd na pasta "api".
 
-3° Criar uma arquivo ".env" na pasta "api" com uma variável chamada "DB_CONNECTION" que contem o link para o banco de dados.
+3° Iniciar o client dando "npm start" usando o cmd na pasta "client".
+
+
