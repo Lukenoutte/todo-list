@@ -18,4 +18,4 @@ JavaScript
 
 2° Iniciar o client dando "npm start" usando o cmd na pasta "client".
 
-3° Criar uma arquivo ".env" com uma variável chamada "DB_CONNECTION" que contem o link para o banco de dados.
+3° Criar uma arquivo ".env" na pasta "api" com uma variável chamada "DB_CONNECTION" que contem o link para o banco de dados.
