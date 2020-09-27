@@ -11,12 +11,15 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-left: 10px;
+  margin-left: 20px;
   outline: none;
   color: #fff;
   background-color: var(--color-primary-dark);
   border: 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .input-button-container button:hover {
   background-color: var(--color-primary-darker);
@@ -42,6 +45,13 @@
 .to-do-list {
   width: 80%;
 text-align: center;
+}
+
+.plus-icon{
+height: 1.5rem;
+
+fill: #fff;
+
 }
 
 @media (max-width: 900px) {

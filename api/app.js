@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
 
-var usersRouter = require('./routes/users');
+
 var toDoRouter = require('./routes/todo');
 var app = express();
 const mongoose = require('mongoose');
@@ -23,7 +23,7 @@ app.use(cookieParser());
 app.use(cors())
 
 app.use('/', toDoRouter);
-app.use('/users', usersRouter);
+
 
 
 

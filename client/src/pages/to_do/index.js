@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect} from "react";
 import "./styles.css";
 import ItemToDo from "./components/item_to_do.js";
 import apiConnection from "../../ApiConnection";
-
+import { ReactComponent as PlusIcon } from "../../assets/icons/plusIcon.svg";
 export default function App() {
 
   const inputToDo = useRef(false);
@@ -61,7 +61,7 @@ export default function App() {
       <h1> Tarefas </h1>
       <div className="input-button-container">
         <input type="text" ref={inputToDo} />{" "}
-        <button onClick={(e) => addToDo(e)}>+</button>
+        <button onClick={(e) => addToDo(e)}><PlusIcon className="plus-icon"/></button>
       </div>
       {apiResponse !== false && (
         <div className="to-do-list">

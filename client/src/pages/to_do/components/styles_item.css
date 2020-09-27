@@ -23,11 +23,20 @@
 }
 
 .item-to-do button{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border: 0;
     background-color: #fff;
     outline: none;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-icon{
+    height: 1.3rem;
+
+    fill: var(--color-primary-dark);
 }
