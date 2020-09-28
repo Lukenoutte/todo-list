@@ -14,6 +14,8 @@ JavaScript
 
 ## 	🔌  Como usar?:
 
+Requisito: NodeJs instalado na máquina.
+
 1° Na pasta do projeto instale as dependências digitando "npm install" no cmd.
 
 2° Crie um arquivo ".env" na pasta "api" com uma variável chamada "DB_CONNECTION" que contem o link para o banco de dados.
